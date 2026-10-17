@@ -1,0 +1,6 @@
+{
+  "name": "Paws & Craft | Taller Artesanal de Collares",
+  "description": "Estudio de confección a medida y catálogo de collares artesanales para perros y gatos con grabado láser y placa QR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

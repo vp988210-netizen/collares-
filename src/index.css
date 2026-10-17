@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-surface: #fff8f6;
+  --color-surface-dim: #e5d7d2;
+  --color-surface-bright: #fff8f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff1eb;
+  --color-surface-container: #f9ebe5;
+  --color-surface-container-high: #f4e5e0;
+  --color-surface-container-highest: #eee0da;
+  --color-surface-variant: #eee0da;
+
+  --color-on-surface: #211a17;
+  --color-on-surface-variant: #534342;
+  --color-inverse-surface: #372f2b;
+  --color-inverse-on-surface: #fceee8;
+  --color-outline: #867371;
+  --color-outline-variant: #d8c1bf;
+  --color-surface-tint: #8d4b47;
+
+  --color-primary: #8d4b47;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #d98a84;
+  --color-on-primary-container: #5c2522;
+  --color-inverse-primary: #ffb3ad;
+
+  --color-secondary: #366759;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #b7ebd9;
+  --color-on-secondary-container: #3b6b5e;
+
+  --color-tertiary: #436276;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #83a3b9;
+  --color-on-tertiary-container: #18394c;
+
+  --color-primary-fixed: #ffdad7;
+  --color-primary-fixed-dim: #ffb3ad;
+  --color-on-primary-fixed: #390a0a;
+  --color-on-primary-fixed-variant: #713531;
+
+  --color-secondary-fixed: #b9eddc;
+  --color-secondary-fixed-dim: #9ed1c0;
+  --color-on-secondary-fixed: #002019;
+  --color-on-secondary-fixed-variant: #1d4f42;
+
+  --color-tertiary-fixed: #c6e7fe;
+  --color-tertiary-fixed-dim: #aacbe2;
+  --color-on-tertiary-fixed: #001e2d;
+  --color-on-tertiary-fixed-variant: #2b4a5d;
+
+  --color-background: #fff8f6;
+  --color-on-background: #211a17;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-sans);
+    color: #211a17;
+    background-color: #fff8f6;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
